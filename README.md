@@ -1,5 +1,7 @@
 # node-sensortag
 
+(forked from https://github.com/sandeepmistry/node-sensortag on 208cfe9292d8ef8234e0d6f02cb250d7efab9815 at May/29, 2015, by yagamy)
+
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sandeepmistry/node-sensortag?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
