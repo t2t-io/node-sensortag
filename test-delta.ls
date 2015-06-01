@@ -4,6 +4,7 @@ SensorTag = require './index'
 
 SensorTag.discoverAll (sensortag) ->
   console.log "found sensortag (#{sensortag.uuid}, type: #{sensortag.type})"
+  return false unless sensortag.type == "nrf51822"
 
   sensortag.on 'humidityChange', (temperature, humidity) ->
     return console.log "temperature: #{temperature}, humidity: #{humidity}"
