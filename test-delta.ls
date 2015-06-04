@@ -9,6 +9,9 @@ SensorTag.discoverAll (sensortag) ->
   sensortag.on 'humidityChange', (temperature, humidity) ->
     return console.log "temperature: #{temperature}, humidity: #{humidity}"
 
+  sensortag.on \disconnect, ->
+    return console.log "disconnected"
+
   sensortag.connectAndSetUp (e0) ->
     return console.error "failed to connect and setup", e0 if e0?
     console.log "successfull to connect and setup"
